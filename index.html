@@ -1,12 +1,192 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>website koo</title>
+<title>Amar Learning App</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body {
+  background-color: lightblue;
+  font-family: Arial;
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  background-color: #1565c0;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 18px;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: green;
+}
+
+.lesson {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px gray;
+}
+
+.lesson h2 {
+  color: #1565c0;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: darkgreen;
+  transform: scale(1.05);
+}
+
+input {
+  width: 90%;
+  max-width: 400px;
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+</style>
 </head>
+
 <body>
-<h1>baga nagaan dhuftan!</h1>
-  <img src="att.fp_drFIX6cPaukbiJDiSfxtkZv3U8WN7FizYd4WzUTk.jpeg" alt="Suuraa Amar">
-<p>maqaan koo Amar.</p>
-<button onclick="alert('baga dhuftan Amar!')">Na Tuqi</button>
+
+<h1>Amar Learning App</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#lessons">Lessons</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="lesson">
+
+<h2>Baga Nagaan Dhuftan!</h2>
+
+<img src="att.fp_drFIX6cPaukbiJDiSfxtkZv3U8WN7FizYd4WzUTk.jpeg" 
+alt="Suuraa Amar" 
+class="profile-photo">
+
+<p>Maqaan koo Amar.</p>
+
+<button onclick="alert('Baga dhuftan Amar!')">
+Na Tuqi
+</button>
+
+</div>
+
+<div id="lessons">
+
+<div class="lesson">
+
+<h2>Barnoota HTML</h2>
+
+<p>HTML jechuun website ijaaruuf fayyadamuudha.</p>
+
+<button onclick="alert('Lesson HTML jalqabde!')">
+Lesson HTML Bani
+</button>
+
+</div>
+
+<div class="lesson">
+
+<h2>Lesson 2: CSS</h2>
+
+<p>CSS website bareechuuf fayyada.</p>
+
+<button onclick="alert('Lesson CSS jalqabde!')">
+Lesson CSS Bani
+</button>
+
+</div>
+
+<div class="lesson">
+
+<h2>Lesson 3: JavaScript</h2>
+
+<p>JavaScript website akka hojjetu taasisa.</p>
+
+<button onclick="alert('Lesson JavaScript jalqabde!')">
+Lesson JavaScript Bani
+</button>
+
+</div>
+
+<div class="lesson">
+
+<h2>Barnoota Itti Aanu</h2>
+
+<p>HTML, CSS fi JavaScript suuta suuta baradhu.</p>
+
+<button onclick="alert('Barnoota itti aanu jalqabde!')">
+Itti Fufi
+</button>
+
+</div>
+
+</div>
+
+<div class="lesson" id="contact">
+
+<h2>📩 Nu Qunnamaa</h2>
+
+<input type="text" placeholder="Maqaa kee galchi">
+
+<br><br>
+
+<input type="email" placeholder="Email kee galchi">
+
+<br><br>
+
+<input type="password" placeholder="Password kee galchi">
+
+<br><br>
+
+<button onclick="alert('Galatoomi! Odeeffannoon kee fudhatame.')">
+Ergi
+</button>
+
+</div>
+
+<footer>
+
+<p>c 2026 Amar Learning App</p>
+
+</footer>
+
 </body>
 </html>
