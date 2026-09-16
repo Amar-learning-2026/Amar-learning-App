@@ -2,10 +2,9 @@
 <html>
 <head>
 <title>Amar Learning App</title>
-  <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#1565c0">
-  
 
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1565c0">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
@@ -99,8 +98,8 @@ input {
 
 <h2>Baga Nagaan Dhuftan!</h2>
 
-<img src="att.fp_drFIX6cPaukbiJDiSfxtkZv3U8WN7FizYd4WzUTk.jpeg" 
-alt="Suuraa Amar" 
+<img src="att.fp_drFIX6cPaukbiJDiSfxtkZv3U8WN7FizYd4WzUTk.jpeg"
+alt="Suuraa Amar"
 class="profile-photo">
 
 <p>Maqaan koo Amar.</p>
@@ -118,22 +117,22 @@ Na Tuqi
 <h2>Barnoota HTML</h2>
 
 <p>HTML jechuun website ijaaruuf fayyadamuudha.</p>
-  <button onclick="document.getElementById('htmlLesson').style.display='block'">
+
+<button onclick="document.getElementById('htmlLesson').style.display='block'">
 Lesson HTML bani
 </button>
 
 <div id="htmlLesson" style="display:none;">
-  <h2>Lesson 1: HTML</h2>
-  <p>HTML jechuun website ijaaruuf fayyadamu.</p>
-  <button onclick="document.getElementById('htmlLesson').style.display='block'">
-Lesson HTML bani
-</button>
-  <p>&lt;h1&gt; mata-duree guddaa ti.</p>
-  <p>&lt;p&gt; barruu barreessuuf fayyada.</p>
-</div>
 
-Lesson HTML Bani
-</button>
+<h2>Lesson 1: HTML</h2>
+
+<p>HTML jechuun website ijaaruuf fayyadamu.</p>
+
+<p>&lt;h1&gt; mata-duree guddaa ti.</p>
+
+<p>&lt;p&gt; barruu barreessuuf fayyada.</p>
+
+</div>
 
 </div>
 
@@ -144,16 +143,20 @@ Lesson HTML Bani
 <p>CSS website bareechuuf fayyada.</p>
 
 <button onclick="document.getElementById('cssLesson').style.display='block'">
-  Lesson CSS Bani
+Lesson CSS Bani
 </button>
 
-  <div id="cssLesson" style="display:none;">
-  <h2>Lesson 2: CSS</h2>
-  <p>CSS jechuun website bareechuuf fayyada.</p>
-  <p>CSS’n halluu, guddaa barruu fi bifa website jijjiira.</p>
-  <p>Fakkeenya: h1 { color: blue; }</p>
+<div id="cssLesson" style="display:none;">
+
+<h2>Lesson 2: CSS</h2>
+
+<p>CSS jechuun website bareechuuf fayyada.</p>
+
+<p>CSS’n halluu, guddaa barruu fi bifa website jijjiira.</p>
+
+<p>Fakkeenya: h1 { color: blue; }</p>
+
 </div>
-</button>
 
 </div>
 
@@ -162,15 +165,21 @@ Lesson HTML Bani
 <h2>Lesson 3: JavaScript</h2>
 
 <p>JavaScript website akka hojjetu taasisa.</p>
+
 <button onclick="document.getElementById('jsLesson').style.display='block'">
 Lesson JavaScript Bani
 </button>
 
 <div id="jsLesson" style="display:none;">
-  <h2>Lesson 3: JavaScript</h2>
-  <p>JavaScript website akka hojjetu taasisa.</p>
-  <p>Fakkeenya: button tuquun hojii tokko akka raawwatu godha.</p>
+
+<h2>Lesson 3: JavaScript</h2>
+
+<p>JavaScript website akka hojjetu taasisa.</p>
+
+<p>Fakkeenya: button tuquun hojii tokko akka raawwatu godha.</p>
+
 </div>
+
 </div>
 
 <div class="lesson">
@@ -182,13 +191,21 @@ Lesson JavaScript Bani
 <button onclick="document.getElementById('nextLesson').style.display='block'">
 Itti Fufi
 </button>
+
 <div id="nextLesson" style="display:none;">
-  <h2>Lesson 4: Itti Fufi</h2>
-  <p>Amma HTML, CSS fi JavaScript baratteetta.</p>
-  <p>Barnoota itti aanu keessatti shaakala goona.</p>
-  <h3>Shaakala 1</h3>
+
+<h2>Lesson 4: Itti Fufi</h2>
+
+<p>Amma HTML, CSS fi JavaScript baratteetta.</p>
+
+<p>Barnoota itti aanu keessatti shaakala goona.</p>
+
+<h3>Shaakala 1</h3>
+
 <p>HTML keessatti mata-duree barreessuuf tag kam fayyadamna?</p>
+
 </div>
+
 </div>
 
 </div>
@@ -212,22 +229,21 @@ Itti Fufi
 <button onclick="alert('Galatoomi! Odeeffannoon kee fudhatame.')">
 Ergi
 </button>
-<div id="htmlLesson" style="display:none;">
-  <h2>Lesson 1: HTML</h2>
-  <p>HTML jechuun website ijaaruuf fayyada.</p>
-  <p>&lt;h1&gt; jechuun mata-duree guddaa.</p>
-  <p>&lt;p&gt; jechuun barreeffama barreessuuf fayyada.</p>
+
 </div>
 
 <footer>
 
-<p>c 2026 Amar Learning App</p>
+<p>© 2026 Amar Learning App</p>
 
 </footer>
-  <script>
+
+<script>
+
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("./service-worker.js");
 }
+
 </script>
 
 </body>
