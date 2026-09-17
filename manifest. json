@@ -1,6 +1,7 @@
 {
   "name": "Amar Learning App",
   "short_name": "Amar App",
+"description": "Amar Learning App - Barnoota HTML, CSS fi JavaScript",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f2f7ff",
