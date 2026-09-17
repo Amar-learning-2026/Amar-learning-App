@@ -1,0 +1,8 @@
+{
+  "name": "Amar Learning App",
+  "short_name": "Amar App",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f2f7ff",
+  "theme_color": "#1565c0"
+}
